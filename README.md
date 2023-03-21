@@ -1,0 +1,1 @@
+# whatspack_web_template
