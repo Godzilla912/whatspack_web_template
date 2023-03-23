@@ -61,6 +61,45 @@ body {
   --border-color-2:       rgba(37, 55, 63, 0.1);
 }
 
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
+
+.slide-track {
+  animation: scroll 10s linear infinite;
+  display: flex;
+}
+
+
+
+.site-footer {
+ 
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+#footer-image{
+  padding-right: 100px;
+  height: 200px;
+}
+
+
 p {
   color: var(--color-texts);
 }
